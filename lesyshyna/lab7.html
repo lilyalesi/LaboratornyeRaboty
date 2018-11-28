@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+  /*  var question = prompt ("В каком году ты поступил?"," ")
+    var question2 = prompt ("Как тебя зовут?"," ")
+    if (question == 2017 && question2 == "Иван"){
+      alert ("Правильно")
+    }
+    else {
+      alert ("Неправильно")
+    }
+
+    var question = prompt ("В каком году ты поступил?"," ")
+    var question2 = prompt ("Как тебя зовут?"," ")
+    if(question == 2017 || question2 == "Иван"){
+      alert ("Правильно")
+    }
+    else {
+      alert ("Неправильно")
+    }
+
+    var question = prompt ("В каком году ты поступил?"," ")
+    var question2 = prompt ("Как тебя зовут?"," ")
+    if(!(question == 2017 || question2 == "Иван")){
+      alert ("Правильно")
+    }
+    else {
+      alert ("Неправильно")
+    }
+
+    var value = prompt ("Введите переменную","")
+    if (value ==1000){
+alert ("Верно")
+}
+else {
+  alert ("Неверно")
+}
+
+var value = prompt ("Введите переменную","")
+alert(value==1000 ?"Верно":"Неверно")*/
+
+Упражнение8
+var a = 5+7
+switch (a)
+{
+    case 9:
+    alert ("Это меньше a")
+    break
+    case 10:
+    alert ("Это a")
+    break
+    case 11:
+    alert ("Это больше a")
+    default:
+    alert ("Это не a!")
+}
+
+Упражнение9
+var lang = prompt ("Введите значение ru или en")
+var week
+if (lang =="ru")
+week = ["Понедельник", " Вторник", " Среда", " Четверг", " Пятница", " Суббота", " Воскресенье"]
+else
+week =["Monday", " Tuesday", " Wednesday"," Thursday", " Friday", " Saturday", " Sunday"]
+alert (week)
+
+var lang = prompt ("Введите значение ru или en");
+var week;
+switch (lang)
+{
+case "ru":
+alert (week = ["Понедельник", " Вторник", " Среда", " Четверг", " Пятница", " Суббота", " Воскресенье"]);
+break;
+case "en":
+alert (week = ["Monday", " Tuesday", " Wednesday"," Thursday", " Friday", " Saturday", " Sunday"]);
+break;
+}
+
+Упражнение10
+var n1 =+prompt("Ввод первого числа")
+var sign =prompt("Выберите действиезнак действия")
+var n2 =+prompt("Ввод второго числа")
+var result
+switch(sign){
+case "+":
+result= n1 + n2
+alert(result)
+break;
+case "-":
+result= n1 - n2
+alert(result)
+break;
+case "*":
+result= n1*n2
+alert(result)
+break;
+case "/":
+if(n2>0){
+result= n1/n2
+alert(result)}
+else if (n2=="0")
+alert("Нельзя делить на ноль")
+}
+
+Упражнение11
+var word = prompt ("Введите слово")
+nashabukva = 0
+if (word.indexOf ("a")! ==-1) nashabukva++
+if (word.indexOf ("e")! ==-1) nashabukva++
+if (word.indexOf ("i")! ==-1) nashabukvar++
+if (word.indexOf ("o")! ==-1) nashabukva++
+toConsole (nashabukva)
+  </script>
+</body>
+</html>
